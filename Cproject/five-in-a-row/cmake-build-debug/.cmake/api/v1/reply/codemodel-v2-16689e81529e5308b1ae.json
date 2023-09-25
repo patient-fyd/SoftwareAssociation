@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.26"
+						"string" : "3.25.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "five_in_a_row::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-five_in_a_row-Debug-9773c126b4c36361fdf1.json",
+					"jsonFile" : "target-five_in_a_row-Debug-6f797466fb08e0b44487.json",
 					"name" : "five_in_a_row",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/\u8f6f\u4ef6\u534f\u4f1a/code/SoftwareAssociation/Cproject/five-in-a-row/cmake-build-debug",
-		"source" : "E:/\u8f6f\u4ef6\u534f\u4f1a/code/SoftwareAssociation/Cproject/five-in-a-row"
+		"build" : "D:/code/SoftwareAssociation/Cproject/five-in-a-row/cmake-build-debug",
+		"source" : "D:/code/SoftwareAssociation/Cproject/five-in-a-row"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }

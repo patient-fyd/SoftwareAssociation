@@ -6,6 +6,7 @@
 #define BLACK 1
 #define BLANK 0
 
+
 void draw_chessboardn(int row, int col, int chessboard[][MAX_COL]);
 void draw_chessman(int type, char *str);
 
@@ -14,7 +15,8 @@ int is_full(int chessboard[][MAX_COL], int row, int col);
 int is_win(int chessboard[][MAX_COL], int row, int col);
 
 int main () {
-    draw_chessboardn(3,4,0);
+    system("chcp 65001");
+    person_person();
 
     return 0;
 }
@@ -57,15 +59,16 @@ void draw_chessboardn(int row, int col, int chessboard[][MAX_COL]) {
 //绘制棋子
 void draw_chessman(int type, char *str) {
     if (type == WHITE)
-        printf("●");
+        printf("○ ");
     if (type == BLACK)
-        printf("○");
+        printf("● ");
     if (type == BLANK)
         printf("%s", str);
 
 }
 
 void person_person(void) {
+    //初始化棋盘
     int chessboard[MAX_ROW][MAX_COL] = {BLANK};
     int i, j;
     char key;
