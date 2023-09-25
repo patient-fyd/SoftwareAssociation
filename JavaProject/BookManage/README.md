@@ -19,10 +19,6 @@
 
 1. 克隆或下载项目代码到本地计算机。
 
-   ```bash
-   git clone https://github.com/yourusername/book-library.git
-   ```
-
 2. 打开项目，并使用Java开发环境（如Eclipse、IntelliJ IDEA等）导入项目。
 
 3. 在开发环境中运行`Main.java`文件，启动图书管理系统。
