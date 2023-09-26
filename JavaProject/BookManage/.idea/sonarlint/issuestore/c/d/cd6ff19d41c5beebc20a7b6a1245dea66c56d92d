@@ -1,0 +1,8 @@
+
+{
+java:S1488#"^Immediately return this expression instead of assigning it to the temporary variable "choice".(“«Ÿ­8“°Ò³™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‰ÕÚÇ8š°Ò³™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(˜² Ù8œ°Ò³™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(²á±Š8ž°Ò³™1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(Œ‰³´8 °Ò³™1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(”—üŽ8¤°Ò³™1

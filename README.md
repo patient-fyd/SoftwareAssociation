@@ -16,8 +16,8 @@
 
 本代码库包含了我们的各种项目，涵盖了多个技术领域。请随时浏览我们的项目列表，并参与其中：
 
-- [项目名称 1](链接到项目1) - 暂无。
-- [项目名称 2](链接到项目2) - 暂无。
+- [五子棋 1](https://github.com/patient-fyd/SoftwareAssociation/tree/main/Cproject/five-in-a-row) - C语言实现的双人对战五子棋。
+- [图书管理系统 2](https://github.com/patient-fyd/SoftwareAssociation/tree/main/JavaProject/BookManage) - JavaSe简单的实现图书管理系统。
 - [项目名称 3](链接到项目3) - 暂无。
 
 如果您有兴趣贡献代码或报告问题，请查看各个项目的贡献指南和问题跟踪器。
