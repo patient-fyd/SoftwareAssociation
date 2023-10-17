@@ -126,13 +126,113 @@
 //    return 0;
 //}
 
+//int main(){
+//    // else 跟最近的if匹配
+//    int y = 0,x, result;
+//    if (y != 0)
+//        if (x != 0)
+//            result = x / y;
+//    else
+//        printf("Error: y is equal to 0\n");
+//    return 0;
+//}
+
+//int main(){
+//    // 三目运算符
+//    // 表达式1 ? 表达式2 : 表达式3
+//    //“如果表达式 1成立，那么表达式 2，否则表达式 3。”
+//    // 条件表达式求值的步骤是：
+//    // 首先计算出表达式 1的值，如果此值不为零，
+//    // 那么计算表达式 2的值，并且计算出来的值就是整个条件表达式的值；
+//    // 如果表达式 1的值为零，那么表达式 3的值是整个条件表达式的值。
+//    int a = 0;
+//    int b = 0;
+//    scanf("%d %d", &a, &b);
+////    if (a >= b){
+////        printf("%d\n", a);
+////    } else {
+////        printf("%d\n", b);
+////    }
+//
+//    a >=b ? printf("%d\n", a) : printf("%d\n", b);
+//
+//    printf("%d\n", a >= b ? a : b);
+//
+//    // 三目运算符的嵌套
+//    // 1.判断一个数是否为偶数
+//    // 2.如果是偶数，判断是否能被3整除
+//    // 3.如果能被3整除，输出yes，否则输出no
+//    int c = 0;
+//    scanf("%d", &c);
+//    c % 2 == 0 ? (c % 3 == 0 ? printf("yes\n") : printf("no\n")) : printf("no\n");
+//    return 0;
+//}
+
+//int main(){
+//    // 计算1-100的所有质数的和
+//    // 质数：只能被1和自身整除的数
+//    int i = 3;
+//    int j = 2;
+//    // flag 用来标记i是否为质数
+//    int flag = 0;
+//    int sum = 0;
+//    while (i <= 100){
+//        j = 2;
+//        while (j < i){
+//            if (i % j == 0){
+//                flag = 0;
+//                break;
+//            } else {
+//                flag = 1;
+//            }
+//            j++;
+//        }
+//        if (flag == 1){
+//            sum += i;
+//        }
+//        i++;
+//    }
+//    printf("1-100的所有质数的和为%d\n", sum + 2);
+//    return 0;
+//}
+
+//int main(){
+//    // C99标准中，增加了_Bool类型,值只能是0或1,存储的非零变量,导致变量赋值为1
+//    _Bool flag = -4;
+//    printf("%d\n", flag); // 1
+//    return 0;
+//}
+
+//int main (){
+//    // switch语句
+//    // 语法: switch(表达式){  case: 常量表达式: 语句; break; default: 语句; }
+//    int a = 0;
+//    scanf("%d", &a);
+//    switch (a){
+//        case 1:
+//        case 2:
+//        case 3:
+//        case 4:
+//        case 5:
+//            printf("上班\n");
+//            break;
+//        case 6:
+//        case 7:
+//            printf("加班\n");
+//            break;
+//        default:
+//            printf("输入有误\n");
+//            break;
+//    }
+//    return 0;
+//}
+
+// 使用技巧,把0放到==的前面,当你不小心把==写成=时,编译器会报错
 int main(){
-    // else 跟最近的if匹配
-    int y = 0,x, result;
-    if (y != 0)
-        if (x != 0)
-            result = x / y;
-    else
-        printf("Error: y is equal to 0\n");
+    int i = 0;
+    if (0 == i){
+
+    }
+
     return 0;
 }
