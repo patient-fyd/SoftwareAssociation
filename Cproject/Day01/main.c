@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    /* 这是一个输出语句
-    这是一个输出语句
-            这是一个输出语句
-    这是一个输出语句*/
-    printf("Hello, 某某某\n");
-    printf("wxhn\n");
 
+    int a = 1;
+    int x = 0;
+
+    a = (++x) + (x++);
+    printf("a = %d\n", a);
+    printf("x = %d\n", x);
     return 0;
 }
